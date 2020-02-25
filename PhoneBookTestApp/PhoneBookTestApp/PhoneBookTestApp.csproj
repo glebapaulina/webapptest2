@@ -70,6 +70,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess\ApplicationDbContext.cs" />
     <Compile Include="DataAccess\DatabaseUtil.cs" />
     <Compile Include="PhoneBook\IPhoneBook.cs" />
     <Compile Include="Model\Person.cs" />

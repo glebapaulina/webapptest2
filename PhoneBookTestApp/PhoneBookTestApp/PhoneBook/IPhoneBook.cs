@@ -6,5 +6,6 @@ namespace PhoneBookTestApp.PhoneBook
     {
         Person FindPerson(string firstName, string lastName);
         void AddPerson(Person newPerson);
+        void Print();
     }
 }

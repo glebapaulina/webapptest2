@@ -14,7 +14,7 @@ namespace PhoneBookTestApp.DataAccess
             {
                 SQLiteCommand command =
                     new SQLiteCommand(
-                        "create table PHONEBOOK (NAME varchar(255), PHONENUMBER varchar(255), ADDRESS varchar(255))",
+                        "create table PHONEBOOK (Id integer PRIMARY KEY AUTOINCREMENT, NAME varchar(255), PHONENUMBER varchar(255), ADDRESS varchar(255))",
                         dbConnection);
                 command.ExecuteNonQuery();
 
@@ -31,7 +31,7 @@ namespace PhoneBookTestApp.DataAccess
                 command.ExecuteNonQuery();
 
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 throw;
             }
