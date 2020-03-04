@@ -28,7 +28,6 @@ namespace PhoneBookTestAppTests.Tests
                 Address = "1234 Sand Hill Dr, Royal Oak, MI",
                 Name = "John Smith",
                 PhoneNumber = "(248) 123-4567"
-
             });
 
             //assert
